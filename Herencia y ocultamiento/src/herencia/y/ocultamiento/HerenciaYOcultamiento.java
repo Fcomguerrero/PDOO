@@ -16,8 +16,8 @@ public class HerenciaYOcultamiento {
      */
     public static void main(String[] args) {
         
-        Alumno esteAlumno = new Alumno("74679682Q","Fcis","Informatica", 2);
-        Profesor elprofesor = new Profesor("00000000S", "Zoraida", "PDOO", 7);
+        Alumno esteAlumno = new Alumno("7000000W","Fcis","Informatica", 2);
+        Profesor elprofesor = new Profesor("00000000S", "nombre", "PDOO", 7);
         
         //Muestra la informacion del Alumno
         System.out.println(esteAlumno);
