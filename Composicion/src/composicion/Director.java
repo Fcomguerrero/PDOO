@@ -20,10 +20,6 @@ public Director(String nom, double s, String d, double i){
     incentivos = i;
 }
 
-public String getNombre(){
-    return empl.getNombre();
-}
-
 public double getIncentivos() {
     return empl.getSueldo()*0.06;
 }
