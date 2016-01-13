@@ -15,7 +15,7 @@ private String despacho;
 private double incentivos;//% que se incrementa su nómina
 
 public Director(String nom, double s, String d, double i){ 
-    super(nom,s);
+    super(nom, s);
     despacho = d;
     incentivos = i;
 }
