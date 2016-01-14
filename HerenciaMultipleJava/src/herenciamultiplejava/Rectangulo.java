@@ -38,8 +38,10 @@ public void colorear(String color){
 
 @Override
 public String toString() {
-    return super.toString()+ "\nMi perimetro es "+ perimetro() + " y mi Area es "+ area();
-}
+    return super.toString()+ "\nMi perimetro es "+ perimetro() + " y mi Area es "+ area() 
+            + "\nCon un Borde de Grosor: "+ FiguraGrafica.grosorBorde ;
+       
+}  
 
 
 }//class
