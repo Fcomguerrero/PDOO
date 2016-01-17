@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ventana;
+
+/**
+ *
+ * @author fcis
+ */
+public class VentanaApp {
+    
+    
+   public static void main(String[] args) {
+       
+        VentanaTitulo ventana=new VentanaTitulo(0, 0, 20, 30, "Principal");
+        ventana.mostrar();
+        ventana.cambiarDimensiones(10, -5);
+        ventana.desplazar(4, 3);
+        System.out.println("************************");
+        ventana.mostrar();
+
+
+        try  {
+//espera la pulsación de una tecla y luego RETORNO
+            System.in.read();
+        }catch (Exception e) {  }
+  }
+}
