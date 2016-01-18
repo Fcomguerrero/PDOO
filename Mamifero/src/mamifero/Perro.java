@@ -32,6 +32,6 @@ public class Perro extends Mamifero{
     
       @Override
     public String toString() {
-        return "de color " + color + ", con un peso de " + peso + " Kg";
+        return super.toString();
     }
 }
