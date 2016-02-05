@@ -13,7 +13,7 @@ public interface FiguraGrafica {
     //aunque no se indique explícitamente, por lo que deben tener un valor asignado y visibilidad pública o de paquete.
     int grosorBorde = 2;   // variable global 
             
-    //FiguraGrafica es Abstracto y no puede ser instaciado
+    //FiguraGrafica es Abstracto y no puede ser instanciado
 
     public void pintarBorde(String color);
     

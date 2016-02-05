@@ -31,7 +31,6 @@ public double area(){
 public void pintarBorde(String color){
     System.out.println(color);
 }
-@Override
 public void colorear(String color){
     System.out.println(color);
 }
@@ -39,7 +38,7 @@ public void colorear(String color){
 @Override
 public String toString() {
     return super.toString()+ "\nMi perimetro es "+ perimetro() + " y mi Area es "+ area() 
-            + "\nCon un Borde de Grosor: "+ FiguraGrafica.grosorBorde ;
+            + "\nCon un Borde de Grosor: "+ FiguraGrafica.grosorBorde;
        
 }  
 

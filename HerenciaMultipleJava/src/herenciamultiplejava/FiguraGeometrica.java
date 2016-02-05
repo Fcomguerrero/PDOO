@@ -11,6 +11,7 @@ package herenciamultiplejava;
 public abstract class FiguraGeometrica {  //Class Abstracta
     
     private int numLados;
+    
     //constructor    
     public FiguraGeometrica(int lados){
         this.setNumLados(lados);
@@ -29,6 +30,6 @@ public abstract class FiguraGeometrica {  //Class Abstracta
     }
 
 public String toString() {
-    return "Soy una Figura Geometrica de "+ getNumLados()+ " lados"; //To change body of generated methods, choose Tools | Templates.
+    return "Soy una Figura Geometrica de "+ getNumLados()+ " lados";
     }
 }
