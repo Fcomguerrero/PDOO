@@ -16,13 +16,13 @@ public class Vaca extends Mamifero{
 //    int peso;
     
     public Vaca(String color, int peso){
-        super(4,color,peso);
+        super(color,peso);
 //        this.color = color;
 //        this.peso = peso;
     }
     @Override
     public void comer(){
-       System.out.println("Soy una vaca comiendo hierva");
+       System.out.println("\n\nSoy una vaca comiendo hierva");
     }
     @Override
     public void sonido(){

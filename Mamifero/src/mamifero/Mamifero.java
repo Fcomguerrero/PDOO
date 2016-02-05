@@ -12,19 +12,17 @@ package mamifero;
  */
 public abstract class Mamifero {
      
-    int numeroP;
+    private static int numeroP = 4;
     String color;
     int peso;
         
-    public Mamifero(int num, String color, int peso) {
-        numeroP = num;
+    public Mamifero(String color, int peso) {
         this.color = color;
         this.peso = peso;
     }
 
     public abstract void comer();
     public abstract void sonido();
-    
     
     public String toString() {
         return "de color " + color + ", con un peso de " + peso + " Kg";

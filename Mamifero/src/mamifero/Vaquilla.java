@@ -5,9 +5,6 @@
  */
 
 package mamifero;
-
-import com.sun.xml.internal.ws.policy.sourcemodel.wspolicy.NamespaceVersion;
-
 /**
  *
  * @author Fco Manuel Guerrero Jimènez 
@@ -27,7 +24,7 @@ public class Vaquilla extends Vaca{
     
     @Override
     public void comer(){
-       System.out.println("\nSoy una vaquilla que bebe leche");
+       System.out.println("\n\nSoy una vaquilla que bebe leche");
     }
     @Override
     public void sonido(){
